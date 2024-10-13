@@ -25,9 +25,37 @@
       <p>Hello, welcome to my website!<br>
          My name is Armando Lazarus Perez.<br>
       I like painting, electronic music, and cats.<br>
+      This website was coded and designed by me.<br>
       You can contact me via email at armando@l4zrus.art</p>
     </div>
   </section>
   <script src="script.js"></script>
 </body>
 </html>
+
+<head>
+  <style>
+    html {
+    background-color: rgb(3, 3, 3);
+    }
+      section {
+          animation: fadeInAnimation ease-in 0.2s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+
+      h1 {
+          color: green;
+      }
+
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+
+          100% {
+              opacity: 0.9;
+          }
+      }
+  </style>
+</head>
