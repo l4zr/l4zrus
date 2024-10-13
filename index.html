@@ -13,11 +13,11 @@
     <div class="l4z">L4ZRUS</div>
   </header>
   <nav id="desktop-nav">
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#portraits">Digital Portraits</a></li>
-      <li><a href="#design">Graphic Design</a></li>
-      <li><a href="#art">Other Art</a></li>
+    <ul class="navbar-nav">
+      <li><a href="about.html">About</a></li>
+      <li><a href="index.html">Digital Portraits</a></li>
+      <li><a href="design.html">Graphic Design</a></li>
+      <li><a href="other.html">Other Art</a></li>
     </ul>
   </nav>
   <section class="Portraits">
@@ -30,3 +30,27 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<head>
+  <style>
+      section {
+          animation: fadeInAnimation ease 1s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+
+      h1 {
+          color: green;
+      }
+
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+
+          100% {
+              opacity: 1;
+          }
+      }
+  </style>
+</head>
