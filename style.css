@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(10, 10, 10);
 }
 
 
@@ -97,7 +97,7 @@ nav,
 /* gallery */
 
 .gallery{
-    width: 76%;
+    width: 73%;
     margin: 20px auto 200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -122,6 +122,7 @@ nav,
 {
     width: 0px;
     height: 0px;
+    visibility: hidden;
     display: inline;
     background-image: url(images/atj.png);
     background-image: url(images/bjork.png);
