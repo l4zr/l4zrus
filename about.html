@@ -8,6 +8,27 @@
   <title>L4zrus</title>
   <link rel="stylesheet" href="mediaqueries.css" />
   <link rel="icon" type="image/x-icon" href="images/l4z.png?v=3">
+    <style>
+      section {
+          animation: fadeInAnimation ease-in 1s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+
+      h1 {
+          color: green;
+      }
+
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+
+          100% {
+              opacity: 1;
+          }
+      }
+  </style>
 </head>
 <body>
   <header id="logo">
@@ -32,27 +53,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-<head>
-  <style>
-      section {
-          animation: fadeInAnimation ease-in 0.7s;
-          animation-iteration-count: 1;
-          animation-fill-mode: forwards;
-      }
-
-      h1 {
-          color: green;
-      }
-
-      @keyframes fadeInAnimation {
-          0% {
-              opacity: 0;
-          }
-
-          100% {
-              opacity: 1;
-          }
-      }
-  </style>
-</head>
