@@ -97,10 +97,12 @@ nav,
 /* gallery */
 
 .gallery{
-    width: 73%;
-    margin: 20px auto 200px;
+    width: 75%;
+    margin: auto auto auto;
+    justify-content: center;
+    align-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 30%));
     grid-gap: 30px;
 }
 
